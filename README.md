@@ -2,36 +2,49 @@
 
 ## ✨ Features
 
-- 🗺️ **Map & List View**  
-  View saved locations both on a Google Map and in a detailed list format.
+- 🗺️ **Dual View: Map & List**
+  - View saved locations on an interactive **Google Map**
+  - Browse entries in a scrollable, filterable **list format**
 
-- 📌 **Add Rich Location Entries**  
-  For each location, users can attach:
-  - Title & Description
-  - Images (from camera or gallery)
-  - Videos (from camera or gallery)
-  - Audio (record live or select from device)
-  - Notes in **PDF**, **TXT**, or **Word (DOCX)** format
+- 🧭 **Flexible Location Selection**
+  - Add a travel entry using your **current location**
+  - Or search and select any place using the **Google Places API**
 
-- 🔎 **Search & Filter**  
-  - Filter locations by **date range**  
-  - Filter by **categories**
+- 📝 **Rich Travel Entries**
+  Each saved location entry can include:
+  - **Title** & **Description**
+  - **Photos** (captured via camera or selected from the gallery)
+  - **Videos** (recorded or picked from device)
+  - **Voice Notes** (recorded in-app or uploaded from storage)
+  - **Document Notes**:
+    - **PDF**
+    - **TXT**
+    - **Word (DOCX)** files
 
-- 📍 **Place Search with Google Places API**  
-  Easily search and select locations using Google Places Autocomplete.
+- 📂 **Full Travel Entry Detail Page**
+  - Each location has a **dedicated detail screen**
+  - Preview all attached media: image thumbnails, video playback (via ExoPlayer), audio playback, and document viewers
+
+- 🎯 **Search & Filtering**
+  - Filter by **custom date range**
+  - Filter by **category or tag** (e.g., Vacation, Work, Food)
+
+- 🧭 **Autocomplete Place Search**
+  - Use **Google Places Autocomplete** to find and tag any global location quickly when logging a new entry
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Built With
 
-- **Jetpack Compose** – Modern declarative UI toolkit  
-- **Google Maps API** – Display and interact with map views  
-- **Google Places API** – Search and autocomplete for places  
-- **Firebase Firestore** – Cloud NoSQL database for storing location data  
-- **Firebase Storage** – For uploading and retrieving images, videos, documents  
-- **ExoPlayer** – Smooth video playback  
-- **Apache POI** – To handle Word and PDF document creation  
-- **Koin** – Lightweight dependency injection framework  
-- **DataStore** – For local data persistence and preferences
+- 🖌️ **Jetpack Compose** – Declarative UI
+- 🗺️ **Google Maps API** – Interactive maps
+- 📍 **Google Places API** – Place search and autocomplete
+- 🔥 **Firebase Firestore** – Location & metadata storage
+- ☁️ **Firebase Storage** – Media & document upload and access
+- 🎥 **ExoPlayer** – Video playback
+- 📄 **Apache POI** – Word & PDF file processing
+- ⚙️ **Koin** – Dependency Injection
+- 💾 **Jetpack DataStore** – Local storage and settings
 
+---
 
