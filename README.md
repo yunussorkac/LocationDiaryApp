@@ -27,7 +27,7 @@
 
 - 🎯 **Search & Filtering**
   - Filter by **custom date range**
-  - Filter by **category or tag** (e.g., Vacation, Work, Food)
+  - Filter by **category**
 
 - 🧭 **Autocomplete Place Search**
   - Use **Google Places Autocomplete** to find and tag any global location quickly when logging a new entry
@@ -44,7 +44,7 @@
 - 🎥 **ExoPlayer** – Video playback
 - 📄 **Apache POI** – Word & PDF file processing
 - ⚙️ **Koin** – Dependency Injection
-- 💾 **Jetpack DataStore** – Local storage and settings
+- 💾 **DataStore** – Local storage and settings
 
 ---
 
