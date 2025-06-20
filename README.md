@@ -23,7 +23,7 @@
 
 - 📂 **Full Travel Entry Detail Page**
   - Each location has a **dedicated detail screen**
-  - Preview all attached media: image thumbnails, video playback (via ExoPlayer), audio playback, and document viewers
+  - Preview all attached media: images, video playback (via ExoPlayer), audio playback, and document viewers
 
 - 🎯 **Search & Filtering**
   - Filter by **custom date range**
